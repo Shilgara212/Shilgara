@@ -23,11 +23,11 @@ The interface uses a custom orbit symbol, a restrained color system, responsive 
 Requires macOS 14 or later and Xcode with its command line tools. Open `Package.swift` in Xcode, or build the standalone app:
 
 ```sh
-./scripts/build-app.sh
+bash scripts/build-app.sh
 open dist/Shilgara.app
 ```
 
-Run the calculation and persistence checks with `./scripts/test-grade-engine.sh`.
+Run the calculation and persistence checks with `bash scripts/test-grade-engine.sh`.
 
 On a new Mac, the app starts with empty records. This repository contains **no personal courses, grades, Canvas exports, or Workday records**. Data entered in the app is stored under `~/Library/Application Support/MacStudy/` and can be exported from the app as a backup. Do not commit exported backups or an `imports/` directory.
 
