@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+dist/
+imports/
+academic-data.json
+academic-data*.json
+*Backup*.json
+*.xcuserstate
+*.xcuserdata/
